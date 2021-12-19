@@ -72,6 +72,7 @@
 
 #ifdef ESP_IDF_COMP_APP_UPDATE_ENABLED
 #include "esp_ota_ops.h"
+#include "esp_https_ota.h"
 #endif
 
 #ifdef ESP_IDF_COMP_ESP_HTTP_CLIENT_ENABLED
